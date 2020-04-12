@@ -194,10 +194,36 @@ body {
   color: #555555;
 }
 #publish-box {
-  background-color: yellow;
-  border: 1px solid maroon;
+  background-color: var(--publish-box-bg-color);
+  border: var(--publish-box-border); 
   padding: 5px;
 }
+
+.note-to-balloters, .stu-note {
+    margin: 5px;
+    padding: 10px;
+    border-left-style: solid;
+    background-color: var(--stu-note-background-color);
+    border-left-color: var(--stu-note-border-left-color);
+}
+
+.stu-note::before {
+  white-space: pre;
+  content: "Note\A ";
+  #background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
+
+
+blockquote.stu-note {
+	margin: 5px;
+	padding:10px;
+    background-color: var(--stu-note-background-color);
+    border-left-color: var(--stu-note-border-left-color);
+}
+
+
 /* GENERIC OBJECTS
 ----------------------------------------------------------------------------------------*/
 .navbar {
@@ -443,8 +469,8 @@ ul.markdown-toc
   float: right;
   z-index: 10;
   width: 150px;
-  background-color: #ffeb7e;
-  border: 1px solid navy;
+  background-color:  var(--toc-box-bg-color);
+  border: var(--toc-box-border);
 }
 
 ul.markdown-toc p
@@ -469,8 +495,8 @@ div.markdown-toc
   float: right;
   z-index: 10;
   width: 150px;
-  background-color: #ffeb7e;
-  border: 1px solid navy;
+  background-color:  var(--toc-box-bg-color);
+  border: var(--toc-box-border);
 }
 
 div.markdown-toc p
