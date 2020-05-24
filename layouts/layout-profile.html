@@ -37,6 +37,11 @@
       <a href="{{[type]}}-{{[id]}}.profile.ttl.html">Turtle</a>
     </li>
 {% endunless %}
+{% if site.data.resources['{{[type]}}/{{[id]}}'].history %}
+    <li>
+      <a href="{{[type]}}-{{[id]}}.profile.history.html">History</a>
+    </li>
+{% endif %}
   </ul>
   <a name="root"> </a>
 {% if site.data.structuredefinitions['{{[id]}}'].kind == 'logical' %}
@@ -249,7 +254,6 @@
   {% endif %}
   {% endif %}
 
-  {%include StructureDefinition-{{[id]}}-history.xhtml%}
 </div>
 {% assign includetabscripts = 'true' %}
 {% include fragment-pageend.html %}

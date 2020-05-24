@@ -25,6 +25,10 @@
     {
       "name": "profile-ttl",
       "description": "Profile Turtle"
+    },
+    {
+      "name": "profile-history",
+      "description": "Change History"
     }
   ],
 	"_pre-process-documentation": "This array of objects indicates data being converted from existing files using scripts to support dependency checking when performing continuous builds",
@@ -94,13 +98,15 @@
 			"template-profile-xml": "template/layouts/layout-profile-xml.html",
 			"template-profile-json": "template/layouts/layout-profile-json.html",
 			"template-profile-ttl": "template/layouts/layout-profile-ttl.html",
+			"template-profile-history": "template/layouts/layout-profile-history.html",
 			"base": "{{[type]}}-{{[id]}}.html",
 			"defns": "{{[type]}}-{{[id]}}-definitions.html",
 			"mappings": "{{[type]}}-{{[id]}}-mappings.html",
 			"examples": "{{[type]}}-{{[id]}}-examples.html",
 			"profile-xml": "{{[type]}}-{{[id]}}.profile.xml.html",
 			"profile-json": "{{[type]}}-{{[id]}}.profile.json.html",
-			"profile-ttl": "{{[type]}}-{{[id]}}.profile.ttl.html"
+			"profile-ttl": "{{[type]}}-{{[id]}}.profile.ttl.html",
+			"profile-history": "{{[type]}}-{{[id]}}.profile.history.html"
 		},
 		"CodeSystem": {
 			"template-base": "template/layouts/layout-codesystem.html",
