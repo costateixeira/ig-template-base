@@ -31,6 +31,11 @@
       <a href="{{[type]}}-{{[id]}}.profile.ttl.html">Turtle</a>
     </li>
 {% endunless %}
+{% if site.data.resources['{{[type]}}/{{[id]}}'].history %}
+    <li>
+      <a href="{{[type]}}-{{[id]}}.profile.history.html">History</a>
+    </li>
+{% endif %}
   </ul>
   <a name="root"> </a>
   <h2 id="root">Extension: {{[title]}} - Mappings</h2>
