@@ -28,6 +28,10 @@
       "name": "change-history",
       "description": "Resource Change History",
       "isHistory": true
+    },
+    {
+      "name": "form",
+      "description": "Form"
     }
   ],
   "_formats-documentation": "Lists the formats in the order format-specific pages should be generated.  (Note that suppressed formats won't appear, even if listed here.)",
@@ -240,11 +244,13 @@
       "change-history": "{{[type]}}-{{[id]}}.change.history.html"
     },
     "Questionnaire": {
-      "template-base": "template/layouts/layout-canonical.html",
-      "template-format": "template/layouts/layout-instance-format.html",
+      "template-base": "template/layouts/layout-questionnaire.html",
+      "template-format": "template/layouts/layout-questionnaire-format.html",
       "template-change-history": "template/layouts/layout-changehistory.html",
+      "template-form": "template/layouts/layout-questionnaire-form.html",
       "base": "{{[type]}}-{{[id]}}.html",
       "format": "{{[type]}}-{{[id]}}.{{[fmt]}}.html",
+      "form": "{{[type]}}-{{[id]}}-form.html",
       "change-history": "{{[type]}}-{{[id]}}.change.history.html"
     },
     "SearchParameter": {
@@ -270,7 +276,7 @@
       "base": "{{[type]}}-{{[id]}}.html",
       "format": "{{[type]}}-{{[id]}}.{{[fmt]}}.html",
       "change-history": "{{[type]}}-{{[id]}}.change.history.html"
-    }
+    }    
   }
 }
 
