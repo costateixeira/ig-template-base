@@ -345,7 +345,7 @@
 
 .ui-widget-content {
 	border: 1px solid #a6c9e2;
-	background: #fcfdfd url(images/ui-bg_inset-hard_100_fcfdfd_1x100_63b926c3d199d7774678ec2f1cfeb44a.png) 50% bottom repeat-x;
+	background: #fcfdfd url(../images/ui-bg_inset-hard_100_fcfdfd_1x100_63b926c3d199d7774678ec2f1cfeb44a.png) 50% bottom repeat-x;
 	color: #222
 }
 
@@ -355,7 +355,7 @@
 /*
 .ui-widget-header {
 	border: 1px solid #4297d7;
-	background: #5c9ccc url(images/ui-bg_gloss-wave_55_5c9ccc_500x100_c56ba853727c57c51ab90b9e27f7f2d3.png) 50% 50% repeat-x;
+	background: #5c9ccc url(../images/ui-bg_gloss-wave_55_5c9ccc_500x100_c56ba853727c57c51ab90b9e27f7f2d3.png) 50% 50% repeat-x;
 	color: #fff;
 	font-weight: 700
 }
@@ -371,7 +371,7 @@
 html .ui-button.ui-state-disabled:active,
 html .ui-button.ui-state-disabled:hover {
 	border: 1px solid #c5dbec;
-	background: #dfeffc url(images/ui-bg_glass_85_dfeffc_1x400_a697d8fd8a5adbdb87faf8d78a90e755.png) 50% 50% repeat-x;
+	background: #dfeffc url(../images/ui-bg_glass_85_dfeffc_1x400_a697d8fd8a5adbdb87faf8d78a90e755.png) 50% 50% repeat-x;
 	font-weight: 700;
 	color: #2e6e9e
 }
@@ -396,7 +396,7 @@ a:visited.ui-button {
 .ui-widget-header .ui-state-focus,
 .ui-widget-header .ui-state-hover {
 	border: 1px solid #79b7e7;
-	background: #d0e5f5 url(images/ui-bg_glass_75_d0e5f5_1x400_eb83aeb42fd8d8f74c93b391951bcf44.png) 50% 50% repeat-x;
+	background: #d0e5f5 url(../images/ui-bg_glass_75_d0e5f5_1x400_eb83aeb42fd8d8f74c93b391951bcf44.png) 50% 50% repeat-x;
 	font-weight: 700;
 	color: #1d5987
 }
@@ -426,7 +426,7 @@ a.ui-button:hover {
 .ui-widget-header .ui-state-active,
 a.ui-button:active {
 	border: 1px solid #79b7e7;
-	background: #f5f8f9 url(images/ui-bg_inset-hard_100_f5f8f9_1x100_eb961b27be02a26af523a68d5774aa6b.png) 50% 50% repeat-x;
+	background: #f5f8f9 url(../images/ui-bg_inset-hard_100_f5f8f9_1x100_eb961b27be02a26af523a68d5774aa6b.png) 50% 50% repeat-x;
 	font-weight: 700;
 	color: #e17009
 }
@@ -467,7 +467,7 @@ a.ui-button:active {
 .ui-widget-content .ui-state-error,
 .ui-widget-header .ui-state-error {
 	border: 1px solid #cd0a0a;
-	background: #fef1ec url(images/ui-bg_glass_95_fef1ec_1x400_d699723af8436eba22b885328314bd55.png) 50% 50% repeat-x;
+	background: #fef1ec url(../images/ui-bg_glass_95_fef1ec_1x400_d699723af8436eba22b885328314bd55.png) 50% 50% repeat-x;
 	color: #cd0a0a
 }
 
@@ -516,37 +516,37 @@ a.ui-button:active {
 
 .ui-icon,
 .ui-widget-content .ui-icon {
-	background-image: url(images/ui-icons_469bdd_256x240_ed2f2ba37982b5f821d46811a5f79836.png)
+	background-image: url(../images/ui-icons_469bdd_256x240_ed2f2ba37982b5f821d46811a5f79836.png)
 }
 
 .ui-widget-header .ui-icon {
-	background-image: url(images/ui-icons_d8e7f3_256x240_06f311c437236b376b247382bf815c71.png)
+	background-image: url(../images/ui-icons_d8e7f3_256x240_06f311c437236b376b247382bf815c71.png)
 }
 
 .ui-button:focus .ui-icon,
 .ui-button:hover .ui-icon,
 .ui-state-focus .ui-icon,
 .ui-state-hover .ui-icon {
-	background-image: url(images/ui-icons_217bc0_256x240_33aede1050c87faf490ee203d3d47699.png)
+	background-image: url(../images/ui-icons_217bc0_256x240_33aede1050c87faf490ee203d3d47699.png)
 }
 
 .ui-button:active .ui-icon,
 .ui-state-active .ui-icon {
-	background-image: url(images/ui-icons_f9bd01_256x240_c34e7954fb08d6d72348b49032dc4876.png)
+	background-image: url(../images/ui-icons_f9bd01_256x240_c34e7954fb08d6d72348b49032dc4876.png)
 }
 
 .ui-button .ui-state-highlight.ui-icon,
 .ui-state-highlight .ui-icon {
-	background-image: url(images/ui-icons_2e83ff_256x240_db3b908bd060c6f278fde9e11b3b94e3.png)
+	background-image: url(../images/ui-icons_2e83ff_256x240_db3b908bd060c6f278fde9e11b3b94e3.png)
 }
 
 .ui-state-error .ui-icon,
 .ui-state-error-text .ui-icon {
-	background-image: url(images/ui-icons_cd0a0a_256x240_a6a39c47239fcdbbe6e1d5bfaa7adac3.png)
+	background-image: url(../images/ui-icons_cd0a0a_256x240_a6a39c47239fcdbbe6e1d5bfaa7adac3.png)
 }
 
 .ui-button .ui-icon {
-	background-image: url(images/ui-icons_6da8d5_256x240_72019f22cbcf7555f4bc97aa383f164f.png)
+	background-image: url(../images/ui-icons_6da8d5_256x240_72019f22cbcf7555f4bc97aa383f164f.png)
 }
 
 .ui-icon-blank {
@@ -1636,7 +1636,7 @@ input[type=text].ansList.no_match {
 
 input.search_field,
 textarea.search_field {
-	background-image: url(images/magnifying_glass_763c744f99ee16ac3c99560a9c7fe0b7.png);
+	background-image: url(../images/magnifying_glass_763c744f99ee16ac3c99560a9c7fe0b7.png);
 	background-repeat: no-repeat;
 	background-position: right 2px center;
 	padding-right: 14px
@@ -1644,7 +1644,7 @@ textarea.search_field {
 
 .ansList.ac_multiple,
 .ansList.ac_multiple:focus {
-	background-image: url(images/down_arrow_gray_10_10_4132a6bfb0e59f9584040b12d7535a07.png);
+	background-image: url(../images/down_arrow_gray_10_10_4132a6bfb0e59f9584040b12d7535a07.png);
 	background-repeat: no-repeat;
 	background-position: right 2px center;
 	padding-right: 14px
@@ -1944,7 +1944,7 @@ textarea.search_field {
 }
 
 .lf-form .stop-sign {
-	background-image: url(images/signal-stop_81196e9a93dbdf10e08432093c95194f.png);
+	background-image: url(../images/signal-stop_81196e9a93dbdf10e08432093c95194f.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	width: 48px;
