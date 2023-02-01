@@ -612,6 +612,10 @@ h1, h2, h3, h4, h5, h6, .title {
 overflow: visible;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 1em 0 0.4em 0
+}
+
 /* Common content for section numbering */
 body{counter-reset:section}
 h2{counter-reset:sub-section}
