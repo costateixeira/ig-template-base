@@ -31,7 +31,7 @@
   <description value="These define workflows, rules, strategies, or protocols as part of content in this implementation guide."/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-ka-measure">
-  <name value="Knowledge Artifacts: Measure"/>
+  <name value="Knowledge Artifacts: Measures"/>
   <description value="These define measures as part of content in this implementation guide."/>
 </grouping>
 <grouping xmlns="http://hl7.org/fhir" id="-ka-library">
